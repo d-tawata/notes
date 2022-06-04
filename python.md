@@ -215,3 +215,43 @@ getTotalButton.click()
 ```
 
 ##### Handling drag and drop
+dragAndDrop.py
+```python
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains # allows Selenium to perform more complex tasks
+driver = webdriver.Firefox()
+driver.maximize_window()
+driver.get('https://www.valuelynk.com/int/demos/demo-drag-drop-3.html')
+source = driver.find_element(by=By.XPATH, value='//*[@id="box6"]')
+#source = driver.find_element_by_xpath('//*[@id="box6"]')
+dest = driver.find_element(by=By.XPATH, value='//*[@id="box106"]')
+#dest = driver.find_element_by_xpath('//*[@id="box106"]')
+actions = ActionChains(driver) # actions stored in a queue
+actions.drag_and_drop(source, dest).perform() # performs actions in order of the queue
+```
+
+##### Selenium wait functions
+Wait Functions add crucial time intervals in between actions performed, such as waiting for an element to load before interacting with it.
+
+- **explicit wait functions**
+  - will wait until a condition is satisfied
+- **implicit wait functions**
+  - pull DOM for a certain amount of time, until the element becomes available
+
+##### Selenium explicit wait functions
+
+*Tip: If the element is in an iframe, switch to the iframe element.*
+
+vogueBrowse.py
+```python
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+driver = webdriver.Firefox()
+driver.get('https://www.vogue.com/')
+wait = WebDriverWait(driver, 10) # throws exception after 10 seconds if condition not satisfied
+searchButton = wait.until(EC.element_to_be_clickable((By.XPATH,'//*[@id="google_ads_iframe_3379/conde.vogue.cm/nav-cta/homepage/bundle/1_0"]')))
+searchButton.click()
+```

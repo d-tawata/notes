@@ -108,3 +108,531 @@ Read port: 62061
 1654326130833	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 DevTools listening on ws://localhost:62050/devtools/browser/4bc82aad-7c41-431e-a792-1fe7e075cc8c
 UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1654326710391	geckodriver	INFO	Listening on 127.0.0.1:62314
+1654326710396	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62315" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofileaaY2qI"
+1654326710661	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:62315
+2022-06-04 00:11:50.698 plugin-container[64280:788876] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:11:50.698 plugin-container[64280:788876] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:11:50.700 plugin-container[64280:788876] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:11:50.700 plugin-container[64280:788876] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:11:50.700 plugin-container[64280:788918] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:11:50.700 plugin-container[64280:788918] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofileaaY2qI/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1654326711625	Marionette	INFO	Listening on port 62324
+DevTools listening on ws://localhost:62315/devtools/browser/39711c92-012b-47bb-9c4c-e7b37dd724c9
+Read port: 62324
+1654326711655	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://www.valuelynk.com/int/js/dhtml-suite-for-applications.js, line 12224: unreachable code after return statement
+JavaScript warning: https://www.valuelynk.com/int/js/dhtml-suite-for-applications.js, line 22737: unreachable code after return statement
+1654327373776	geckodriver	INFO	Listening on 127.0.0.1:62488
+1654327373781	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62489" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofilemx8rME"
+1654327374052	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:62489
+2022-06-04 00:22:54.088 plugin-container[65480:799537] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:22:54.088 plugin-container[65480:799537] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:22:54.090 plugin-container[65480:799537] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:22:54.090 plugin-container[65480:799537] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:22:54.091 plugin-container[65480:799570] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:22:54.091 plugin-container[65480:799570] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofilemx8rME/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1654327374976	Marionette	INFO	Listening on port 62502
+DevTools listening on ws://localhost:62489/devtools/browser/1ac90425-47e4-4f3e-80f6-eed0c77dc5f0
+Read port: 62502
+1654327375036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654327375689	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://earth.google.com/static/wasm/9.164.0.0/earthwasm.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: getParameter: pname: Invalid enum value MAX_SAMPLES
+console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.jsm", 352))
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1654327495758	geckodriver	INFO	Listening on 127.0.0.1:62578
+1654327495763	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62579" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofilerl2L5y"
+1654327496060	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:62579
+2022-06-04 00:24:56.094 plugin-container[65713:801677] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:24:56.094 plugin-container[65713:801677] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:24:56.096 plugin-container[65713:801677] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:24:56.096 plugin-container[65713:801677] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:24:56.096 plugin-container[65713:801714] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:24:56.096 plugin-container[65713:801714] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofilerl2L5y/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1654327497019	Marionette	INFO	Listening on port 62591
+DevTools listening on ws://localhost:62579/devtools/browser/f99721ce-e6c9-4405-b684-5aa867714634
+Read port: 62591
+1654327497127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654327497747	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://earth.google.com/static/wasm/9.164.0.0/earthwasm.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: getParameter: pname: Invalid enum value MAX_SAMPLES
+1654327561259	geckodriver	INFO	Listening on 127.0.0.1:62654
+1654327561263	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62655" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofileruN0sO"
+1654327561566	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:62655
+2022-06-04 00:26:01.641 plugin-container[65853:802793] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:26:01.641 plugin-container[65853:802793] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:26:01.643 plugin-container[65853:802793] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:26:01.643 plugin-container[65853:802793] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:26:01.643 plugin-container[65853:802795] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:26:01.643 plugin-container[65853:802795] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofileruN0sO/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1654327562586	Marionette	INFO	Listening on port 62665
+DevTools listening on ws://localhost:62655/devtools/browser/a8cc068f-7a42-4226-9d48-fdd3575fc9a1
+Read port: 62665
+1654327562614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654327563113	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://earth.google.com/static/wasm/9.164.0.0/earthwasm.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: getParameter: pname: Invalid enum value MAX_SAMPLES
+JavaScript warning: https://z.moatads.com/condenastprebidheader987326845656/moatheader.js, line 217: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js, line 7: TypeError: It.moduleInitializer is undefined
+JavaScript warning: https://cdn-magiclinks.trackonomics.net/client/static/v2/condenast_eujdmc753_vogue.js, line 2: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://z.moatads.com/condenastprebidheader987326845656/moatheader.js, line 217: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn-magiclinks.trackonomics.net/client/static/v2/condenast_eujdmc753_vogue.js, line 2: unreachable code after return statement
+JavaScript error: https://www.vogue.com/ line 501 > injectedScript, line 1: ReferenceError: pintrk is not defined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js, line 7: TypeError: It.moduleInitializer is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 6603 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 788 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 4813 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://z.moatads.com/condenastprebidheader987326845656/moatheader.js, line 217: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn-magiclinks.trackonomics.net/client/static/v2/condenast_eujdmc753_vogue.js, line 2: unreachable code after return statement
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js, line 7: TypeError: It.moduleInitializer is undefined
+JavaScript error: https://www.vogue.com/ line 501 > injectedScript, line 1: ReferenceError: pintrk is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 5142 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 1507 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 2750 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://z.moatads.com/condenastprebidheader987326845656/moatheader.js, line 217: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn-magiclinks.trackonomics.net/client/static/v2/condenast_eujdmc753_vogue.js, line 2: unreachable code after return statement
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js, line 7: TypeError: It.moduleInitializer is undefined
+JavaScript error: https://www.vogue.com/ line 501 > injectedScript, line 1: ReferenceError: pintrk is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 1510 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 4824 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 1982 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Already started legacy listener for root-node on server0.conn0.windowGlobal8589934902/windowGlobalTarget2"
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.error: "Unable to find target with innerWindowId:8589934858"
+console.error: "Unable to find target with innerWindowId:8589934858"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: "Unable to find target with innerWindowId:8589934856"
+console.error: "Unable to find target with innerWindowId:8589934809"
+JavaScript warning: https://z.moatads.com/condenastprebidheader987326845656/moatheader.js, line 217: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.vogue.com/ line 501 > injectedScript, line 1: ReferenceError: pintrk is not defined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js, line 7: TypeError: It.moduleInitializer is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 5416 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 5948 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3400: TypeError: data.frameData.id is null
+1654327665003	geckodriver	INFO	Listening on 127.0.0.1:63036
+1654327665010	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63037" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofileIxxlSJ"
+1654327665305	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:63037
+2022-06-04 00:27:45.342 plugin-container[66079:804848] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:27:45.342 plugin-container[66079:804848] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:27:45.344 plugin-container[66079:804848] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:27:45.344 plugin-container[66079:804848] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:27:45.344 plugin-container[66079:804881] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:27:45.344 plugin-container[66079:804881] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofileIxxlSJ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1654327666371	Marionette	INFO	Listening on port 63048
+DevTools listening on ws://localhost:63037/devtools/browser/7a9c4526-d394-4b56-b8a8-585c9b92f8b4
+Read port: 63048
+1654327666475	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://z.moatads.com/condenastprebidheader987326845656/moatheader.js, line 217: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js, line 7: TypeError: It.moduleInitializer is undefined
+JavaScript warning: https://cdn-magiclinks.trackonomics.net/client/static/v2/condenast_eujdmc753_vogue.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 5983 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 2040 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 3315 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/condenastdfp9588492144/moatad.js#moatClientLevel1=4475647908&moatClientLevel2=2609515817&moatClientLevel3=5203056180&moatClientLevel4=138290424425&moatClientSlicer1=21714685015&moatClientSlicer2=21752669841&zMoatPS=mid_content_1&zMoatPT=mt_homepage&zMoatST=mid_content&zMoatCNS=6.58.2&zMoatRFSH=&zMoatSZ=728x90&zMoatPlat=verso, line 251: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts//Ad_2_220_3_0/ebHtml5PoliteBanner.js, line 131: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Unable to find target with innerWindowId:8589934953"
+console.error: "Unable to find target with innerWindowId:8589934953"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 4571 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1654327754897	geckodriver	INFO	Listening on 127.0.0.1:63475
+1654327754902	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63476" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofilevDtyr0"
+1654327755174	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:63476
+2022-06-04 00:29:15.211 plugin-container[66269:806462] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:29:15.212 plugin-container[66269:806462] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:29:15.214 plugin-container[66269:806462] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:29:15.214 plugin-container[66269:806462] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:29:15.214 plugin-container[66269:806460] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:29:15.214 plugin-container[66269:806460] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofilevDtyr0/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1654327756111	Marionette	INFO	Listening on port 63487
+DevTools listening on ws://localhost:63476/devtools/browser/057fd0d1-59bf-4842-9951-0a9d15e8a95e
+Read port: 63487
+1654327756155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://z.moatads.com/condenastprebidheader987326845656/moatheader.js, line 217: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn-magiclinks.trackonomics.net/client/static/v2/condenast_eujdmc753_vogue.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 261 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 2427 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 2707 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/condenastdfp9588492144/moatad.js#moatClientLevel1=4475647908&moatClientLevel2=2609515817&moatClientLevel3=5203056180&moatClientLevel4=138290424425&moatClientSlicer1=21714685015&moatClientSlicer2=21752669841&zMoatPS=mid_content_1&zMoatPT=mt_homepage&zMoatST=mid_content&zMoatCNS=6.58.2&zMoatRFSH=&zMoatSZ=728x90&zMoatPlat=verso, line 251: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts//Ad_2_220_3_0/ebHtml5PoliteBanner.js, line 131: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1654327801733	geckodriver	INFO	Listening on 127.0.0.1:63938
+1654327801738	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63939" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofile1zRfmr"
+1654327802025	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:63939
+2022-06-04 00:30:02.060 plugin-container[66394:808129] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:30:02.060 plugin-container[66394:808129] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:30:02.063 plugin-container[66394:808129] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:30:02.063 plugin-container[66394:808129] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:30:02.063 plugin-container[66394:808163] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:30:02.063 plugin-container[66394:808163] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofile1zRfmr/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1654327802944	Marionette	INFO	Listening on port 63950
+DevTools listening on ws://localhost:63939/devtools/browser/a0b03868-9c80-47bc-87a4-706e42b0ff11
+Read port: 63950
+1654327802993	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://z.moatads.com/condenastprebidheader987326845656/moatheader.js, line 217: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js, line 7: TypeError: It.moduleInitializer is undefined
+JavaScript warning: https://cdn-magiclinks.trackonomics.net/client/static/v2/condenast_eujdmc753_vogue.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 4317 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 727 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 4985 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/condenastdfp9588492144/moatad.js#moatClientLevel1=4475647908&moatClientLevel2=2609515817&moatClientLevel3=5203056180&moatClientLevel4=138290714131&moatClientSlicer1=21714685015&moatClientSlicer2=21752833225&zMoatPS=hero_0&zMoatPT=mt_homepage&zMoatST=hero&zMoatCNS=6.58.2&zMoatRFSH=&zMoatSZ=728x90&zMoatPlat=verso, line 251: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts//Ad_2_220_3_0/ebHtml5PoliteBanner.js, line 131: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1654327822223	geckodriver	INFO	Listening on 127.0.0.1:64355
+1654327822228	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64356" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofileqGbpY9"
+1654327822507	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:64356
+2022-06-04 00:30:22.544 plugin-container[66469:808888] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:30:22.544 plugin-container[66469:808888] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:30:22.546 plugin-container[66469:808888] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:30:22.546 plugin-container[66469:808888] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:30:22.546 plugin-container[66469:808931] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:30:22.546 plugin-container[66469:808931] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofileqGbpY9/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1654327823420	Marionette	INFO	Listening on port 64373
+DevTools listening on ws://localhost:64356/devtools/browser/976148c4-73eb-4dff-a331-3196770d8452
+Read port: 64373
+1654327823481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://z.moatads.com/condenastprebidheader987326845656/moatheader.js, line 217: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js, line 7: TypeError: It.moduleInitializer is undefined
+JavaScript warning: https://cdn-magiclinks.trackonomics.net/client/static/v2/condenast_eujdmc753_vogue.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 4051 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 5567 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 1314 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1654327839156	geckodriver	INFO	Listening on 127.0.0.1:64758
+1654327839161	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64759" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofileQM5bfv"
+2022-06-04 00:30:39.433 plugin-container[66534:809605] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:30:39.434 plugin-container[66534:809605] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:30:39.435 plugin-container[66534:809605] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:30:39.435 plugin-container[66534:809605] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:30:39.436 plugin-container[66534:809615] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:30:39.436 plugin-container[66534:809615] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1654327839438	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:64759
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofileQM5bfv/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1654327840343	Marionette	INFO	Listening on port 64769
+DevTools listening on ws://localhost:64759/devtools/browser/528b59c8-c1a6-4b06-86c5-700f590cca14
+Read port: 64769
+1654327840417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://www.valuelynk.com/int/js/dhtml-suite-for-applications.js, line 12224: unreachable code after return statement
+JavaScript warning: https://www.valuelynk.com/int/js/dhtml-suite-for-applications.js, line 22737: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1654327911350	geckodriver	INFO	Listening on 127.0.0.1:64978
+1654327911354	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64979" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofileqlqLJU"
+1654327911641	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:64979
+2022-06-04 00:31:51.678 plugin-container[66700:811426] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:31:51.678 plugin-container[66700:811426] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:31:51.680 plugin-container[66700:811426] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:31:51.680 plugin-container[66700:811426] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:31:51.680 plugin-container[66700:811461] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:31:51.680 plugin-container[66700:811461] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofileqlqLJU/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1654327912601	Marionette	INFO	Listening on port 65014
+Read port: 65014
+1654327912613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://localhost:64979/devtools/browser/42be2e53-7213-4fb8-8641-207f31bff261
+JavaScript warning: https://www.valuelynk.com/int/js/dhtml-suite-for-applications.js, line 12224: unreachable code after return statement
+JavaScript warning: https://www.valuelynk.com/int/js/dhtml-suite-for-applications.js, line 22737: unreachable code after return statement
+console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.jsm", 352))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1654328071510	geckodriver	INFO	Listening on 127.0.0.1:65291
+1654328071515	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "65292" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofile474Ebo"
+1654328071781	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:65292
+2022-06-04 00:34:31.818 plugin-container[67017:815130] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:34:31.818 plugin-container[67017:815130] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:34:31.820 plugin-container[67017:815130] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:34:31.820 plugin-container[67017:815130] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:34:31.820 plugin-container[67017:815163] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:34:31.820 plugin-container[67017:815163] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofile474Ebo/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1654328072685	Marionette	INFO	Listening on port 65305
+DevTools listening on ws://localhost:65292/devtools/browser/36351360-8e9c-4578-8ace-dc4d81d2a9b8
+Read port: 65305
+1654328072765	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://z.moatads.com/condenastprebidheader987326845656/moatheader.js, line 217: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js, line 7: TypeError: It.moduleInitializer is undefined
+JavaScript warning: https://cdn-magiclinks.trackonomics.net/client/static/v2/condenast_eujdmc753_vogue.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 2944 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 595 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 1342 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://subscribe.vogue.com/subscribe/vogue/145929?source=AMS_VOG_GLOBAL_NAV_CTA_0_MetGalaNotebook22_ZZ&pos_name=AMS_VOG_GLOBAL_NAV_CTA, line 10651: ReferenceError: _satellite is not defined
+JavaScript warning: https://cdn-magiclinks.trackonomics.net/client/static/v2/condenast_eujdmc753_vogue.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 4179 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 7292 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.6547cfda802352c7beac.js, line 1: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 5189 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.error: "Unable to find target with innerWindowId:4294967466"
+console.error: "Unable to find target with innerWindowId:4294967466"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1654328259437	geckodriver	INFO	Listening on 127.0.0.1:49581
+1654328259441	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49582" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofileY8ztCa"
+2022-06-04 00:37:39.715 plugin-container[67378:819164] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:37:39.715 plugin-container[67378:819164] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:37:39.719 plugin-container[67378:819164] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:37:39.719 plugin-container[67378:819164] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:37:39.719 plugin-container[67378:819171] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:37:39.719 plugin-container[67378:819171] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1654328259719	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49582
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofileY8ztCa/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1654328260609	Marionette	INFO	Listening on port 49595
+DevTools listening on ws://localhost:49582/devtools/browser/eadbc67a-f92f-40ef-be45-425beba63598
+Read port: 49595
+1654328260694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://z.moatads.com/condenastprebidheader987326845656/moatheader.js, line 217: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn-magiclinks.trackonomics.net/client/static/v2/condenast_eujdmc753_vogue.js, line 2: unreachable code after return statement
+1654328263207	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 3100 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 5622 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BlV8lHKGnk03wUyhHWlg9fV4CiK26Crs8dLo7bQbDuA.js line 2 > eval line 5611 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/condenastdfp9588492144/moatad.js#moatClientLevel1=4475647908&moatClientLevel2=2609515817&moatClientLevel3=5203056180&moatClientLevel4=138290714116&moatClientSlicer1=21714685015&moatClientSlicer2=21752833225&zMoatPS=hero_0&zMoatPT=mt_homepage&zMoatST=hero&zMoatCNS=6.58.2&zMoatRFSH=&zMoatSZ=728x90&zMoatPlat=verso, line 251: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts//Ad_2_220_3_0/ebHtml5PoliteBanner.js, line 131: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackgroundIDBDatabase::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://subscribe.vogue.com/subscribe/vogue/145929?source=AMS_VOG_GLOBAL_NAV_CTA_0_MetGalaNotebook22_ZZ&pos_name=AMS_VOG_GLOBAL_NAV_CTA, line 10651: ReferenceError: _satellite is not defined
+JavaScript warning: https://cdn-magiclinks.trackonomics.net/client/static/v2/condenast_eujdmc753_vogue.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.6547cfda802352c7beac.js, line 1: unreachable code after return statement
+JavaScript warning: https://earth.google.com/static/wasm/9.164.0.0/earthwasm.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: getParameter: pname: Invalid enum value MAX_SAMPLES
+1654328423891	geckodriver	INFO	Listening on 127.0.0.1:50157
+1654328423895	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50158" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofilehddFjL"
+1654328424200	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50158
+2022-06-04 00:40:24.237 plugin-container[67708:821831] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:40:24.237 plugin-container[67708:821831] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:40:24.240 plugin-container[67708:821831] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:40:24.240 plugin-container[67708:821831] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:40:24.240 plugin-container[67708:821829] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:40:24.240 plugin-container[67708:821829] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofilehddFjL/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1654328425151	Marionette	INFO	Listening on port 50168
+DevTools listening on ws://localhost:50158/devtools/browser/a7edaf97-b34e-4e44-b356-564a81a71dc4
+Read port: 50168
+1654328425254	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654328425739	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://earth.google.com/static/wasm/9.164.0.0/earthwasm.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: getParameter: pname: Invalid enum value MAX_SAMPLES
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2040: TypeError: currentPanel is undefined
+1654328510426	geckodriver	INFO	Listening on 127.0.0.1:50255
+1654328510432	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50256" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofile1dwmye"
+1654328510750	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50256
+2022-06-04 00:41:50.787 plugin-container[67872:823149] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:41:50.788 plugin-container[67872:823149] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:41:50.791 plugin-container[67872:823149] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:41:50.791 plugin-container[67872:823149] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-04 00:41:50.792 plugin-container[67872:823151] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-04 00:41:50.792 plugin-container[67872:823151] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wg/v4gcs6mx0kv2_39w8h73h4qw0000gp/T/rust_mozprofile1dwmye/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1654328511814	Marionette	INFO	Listening on port 50268
+DevTools listening on ws://localhost:50256/devtools/browser/48103bef-4378-4a59-8d18-8f4c635a6545
+Read port: 50268
+1654328511900	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654328512465	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://earth.google.com/static/wasm/9.164.0.0/earthwasm.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: getParameter: pname: Invalid enum value MAX_SAMPLES
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
