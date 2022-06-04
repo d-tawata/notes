@@ -255,3 +255,43 @@ wait = WebDriverWait(driver, 10) # throws exception after 10 seconds if conditio
 searchButton = wait.until(EC.element_to_be_clickable((By.XPATH,'//*[@id="google_ads_iframe_3379/conde.vogue.cm/nav-cta/homepage/bundle/1_0"]')))
 searchButton.click()
 ```
+
+#### 4. Automating with APIs
+##### Understanding API calls
+- **API**
+  - prepackaged functionality
+  - no overhead cost to develop
+
+An Application Programming Interface (API) acts as an intermediary for two pieces of software.
+
+###### How an API Works
+1. get Query sent to API with parameters
+2. API returns JSON response
+
+##### Creating API requests and parsing through JSON
+apiCall.py
+```python
+from urllib import response
+from matplotlib.pyplot import title
+import requests
+import json
+baseUrl = 'https://api.upcitemdb.com/prod/trial/lookup'
+parameters = {'upc': '012993441012'}
+response = requests.get(baseUrl, params=parameters)
+print(response.url)
+content = response.content
+info = json.loads(content) # converts JSON content into dictionary
+item = info['items']
+itemInfo = item[0]
+title = itemInfo['title']
+brand = itemInfo['brand']
+print(title)
+print(brand)
+```
+##### Using API keys
+
+You will need to add an additional parameter with your unique key. See the website's API documentation.
+
+##### Linking API calls
+
+You can link multiple API calls to complete complex processes. Check out [RapidAPI](https://rapidapi.com) for access to many free APIs.
