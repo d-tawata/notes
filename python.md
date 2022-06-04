@@ -191,7 +191,7 @@ Any repetitive online task can be optimized with a Python script.
 
 ##### Basic browser interactions
 
-Copy XPath (element-specific) from inspector in website.
+*Tip: Copy XPath (element-specific) from inspector in website.*
 
 webBrowse.py
 ```python
