@@ -102,3 +102,116 @@ organizeDirectory()
    1. requests
    2. lxml
    3. beautifulsoup4
+
+##### Creating a request and parsing
+scrape.py
+```python
+import requests
+from bs4 import BeautifulSoup
+url = 'https://quotes.toscrape.com/'
+response = requests.get(url) # get copy of website's html document
+soup = BeautifulSoup(response.text, 'lxml') # parse html document, using lxml parser
+print(soup) # html output
+```
+
+##### How to isolate data
+```python
+import requests
+from bs4 import BeautifulSoup
+url = 'https://quotes.toscrape.com/'
+response = requests.get(url) # get copy of website's html document
+soup = BeautifulSoup(response.text, 'lxml') # parse html document, using lxml parser
+quotes = soup.find_all('span', class_='text') # find quote information
+authors = soup.find_all('small', class_='author') # find author information
+tags = soup.find_all('div', class_='tags') # find tag information (multiple tags per quote)
+
+# version 1
+# count = 0
+# for quote in quotes:
+#     print(quote.text + '\n' + authors[count].text)
+#     count = count + 1
+
+# version 2
+for i in range(0,len(quotes)):
+    print(quotes[i].text)
+    print(authors[i].text)
+    quoteTags = tags[i].find_all('a', class_='tag')
+    for quoteTag in quoteTags:
+        print(quoteTag.text)
+```
+
+##### Scraping paginated content
+scrapePages.py
+```python
+from bs4 import BeautifulSoup
+import requests
+url = 'https://scrapingclub.com/exercise/list_basic/'
+response = requests.get(url)
+soup = BeautifulSoup(response.text,'lxml')
+items = soup.find_all('div', class_='col-lg-4 col-md-6 mb-4')
+count = 1
+for i in items:
+    itemName = i.find('h4', class_='card-title').text.strip('\n') # .strip gets rid of new line
+    itemPrice = i.find('h5').text
+    print('%s) Price: %s, Item Name: %s' % (count, itemPrice, itemName))
+    count = count + 1
+pages = soup.find('ul', class_='pagination')
+urls = []
+links = pages.find_all('a', class_='page-link')
+for link in links:
+    pageNum = int(link.text) if link.text.isdigit() else None # None if text is not a number
+    if pageNum != None:
+        x = link.get('href')
+        urls.append(x)
+for i in urls:
+    newUrl = url + i
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text,'lxml')
+    items = soup.find_all('div', class_='col-lg-4 col-md-6 mb-4')
+    for i in items:
+        itemName = i.find('h4', class_='card-title').text.strip('\n') # .strip gets rid of new line
+        itemPrice = i.find('h5').text
+        print('%s) Price: %s, Item Name: %s' % (count, itemPrice, itemName))
+        count = count + 1
+```
+#### 3. Automate Web Browsing with Selenium
+##### Automating web browsing
+###### Why automate browsing?
+- **Test Website Functionality**
+  - Decreases cost and time
+  - Provides round the clock testing
+  - Makes cross-browser proofing easier
+- **Botting Processes**
+  - botting: a piece of software that executes commands or performns routine tasks without user intervention
+  - script any repetitive tasks
+  - filling out forms
+  - logging in
+
+Any repetitive online task can be optimized with a Python script.
+
+##### Basic browser interactions
+
+Copy XPath (element-specific) from inspector in website.
+
+webBrowse.py
+```python
+from selenium import webdriver
+driver = webdriver.Firefox() # initialize webdriver
+driver.get('http://demo.seleniumeasy.com/basic-first-form-demo.html')
+
+# single input field
+messageField = driver.find_element_by_xpath('//*[@id="user-message"]')
+messageField.send_keys('Hello World') # inputs message into text box
+showMessageButton = driver.find_element_by_xpath('/html/body/div[2]/div/div[2]/div[1]/div[2]/form/button')
+showMessageButton.click()
+
+# two input fields
+fieldA = driver.find_element_by_xpath('//*[@id="sum1"]')
+fieldA.send_keys('5')
+fieldB = driver.find_element_by_xpath('//*[@id="sum2"]')
+fieldB.send_keys('12')
+getTotalButton = driver.find_element_by_xpath('/html/body/div[2]/div/div[2]/div[2]/div[2]/form/button')
+getTotalButton.click()
+```
+
+##### Handling drag and drop
